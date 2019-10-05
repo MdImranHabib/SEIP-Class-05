@@ -103,9 +103,10 @@
             this.columnHeader2,
             this.columnHeader3});
             this.listViewInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewInfo.Location = new System.Drawing.Point(63, 214);
+            this.listViewInfo.HideSelection = false;
+            this.listViewInfo.Location = new System.Drawing.Point(34, 214);
             this.listViewInfo.Name = "listViewInfo";
-            this.listViewInfo.Size = new System.Drawing.Size(426, 227);
+            this.listViewInfo.Size = new System.Drawing.Size(505, 301);
             this.listViewInfo.TabIndex = 4;
             this.listViewInfo.UseCompatibleStateImageBehavior = false;
             this.listViewInfo.View = System.Windows.Forms.View.Details;
@@ -140,7 +141,7 @@
             // btnClearAll
             // 
             this.btnClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearAll.Location = new System.Drawing.Point(414, 447);
+            this.btnClearAll.Location = new System.Drawing.Point(464, 521);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(75, 28);
             this.btnClearAll.TabIndex = 5;
@@ -152,6 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(573, 578);
             this.Controls.Add(this.btnClearAll);
             this.Controls.Add(this.btnAdd);
@@ -163,6 +165,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personal Information";
             this.ResumeLayout(false);
             this.PerformLayout();
